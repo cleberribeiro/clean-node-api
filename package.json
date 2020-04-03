@@ -9,6 +9,8 @@
   "author": "Cleber Ribeiro <cleber.ramos.ribeiro@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "git-commit-msg-linter": "^2.4.2"
+    "@types/node": "^13.11.0",
+    "git-commit-msg-linter": "^2.4.2",
+    "typescript": "^3.8.3"
   }
 }
