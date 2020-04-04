@@ -17,5 +17,22 @@ Para padronizar as mensagens nos commits que serão realizados durante o projeto
 
 `npm i -D git-commit-msg-linter`
 
+##### 3.3. Instalar e configurar Typescript
+`npm i -D typescript @types/node    `
+
+##### 3.4. Instalar e configurar Eslint
+[https://www.npmjs.com/package/eslint-config-standard-with-typescript]
+`npm install --save-dev eslint@6 eslint-plugin-standard@4 eslint-plugin-promise@4 eslint-plugin-import@2 eslint-plugin-node@11 @typescript-eslint/eslint-plugin@2 eslint-config-standard-with-typescript`
+
+##### 3.5. Instalar e configurar Husky
+[https://www.npmjs.com/package/husky]
+
+`npm i -D husk`
+`npm i -D lint-staged`
+
+##### 3.6. Instalar e configurar Jest
+[https://jestjs.io/docs/en/getting-started]
+`node i -D jest @types/jest ts-je`
+
 
 #### 4. Clean Architecture
