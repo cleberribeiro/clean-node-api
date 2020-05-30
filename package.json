@@ -5,27 +5,27 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:staged": "jest --passWithNoTests --watch"
+    "test:staged": "./node_modules/jest/bin/jest.js --passWithNoTests"
   },
   "author": "Cleber Ribeiro <cleber.ramos.ribeiro@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "^25.2.1",
-    "@types/node": "^13.11.0",
-    "@typescript-eslint/eslint-plugin": "^2.26.0",
-    "@typescript-eslint/parser": "^2.26.0",
+    "@types/jest": "^25.2.3",
+    "@types/node": "^14.0.6",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^3.0.2",
     "eslint": "^6.8.0",
-    "eslint-config-standard-with-typescript": "^15.0.1",
+    "eslint-config-standard-with-typescript": "^11.0.1",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "git-commit-msg-linter": "^2.4.2",
-    "husky": "^4.2.3",
-    "jest": "^25.2.7",
-    "lint-staged": "^10.1.1",
-    "ts-jest": "^25.3.1",
-    "typescript": "^3.8.3"
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "lint-staged": "^10.2.7",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
   },
   "dependencies": {}
 }
