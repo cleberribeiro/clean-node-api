@@ -1,0 +1,19 @@
+import { MongoHelper } from './mongo-helper'
+
+describe('Mongo Helper', () => {
+  beforeAll(async () => {
+    await MongoHelper.connect(process.env.MONGO_URL)
+  })
+
+  afterAll(async () => {
+    await MongoHelper.disconnect()
+  })
+
+  test('should reconnect if mongodb is down', async () => {
+    let accountCollection = MongoHelper.getCollection('accounts')
+    expect(accountCollection).toBeTruthy()
+    await MongoHelper.disconnect()
+    accountCollection = MongoHelper.getCollection('accounts')
+    expect(accountCollection).toBeTruthy()
+  })
+})
